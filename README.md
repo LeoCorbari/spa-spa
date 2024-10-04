@@ -44,4 +44,3 @@ Check out the live version [**Live Demo**](https://leocorbari.github.io/spa-spa/
 ---
 
 📝 Licensed under the MIT License.
-```
