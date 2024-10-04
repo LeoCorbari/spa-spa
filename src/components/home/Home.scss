@@ -1,0 +1,47 @@
+#home-section {
+  .vh-85 {
+    height: 85vh;
+  }
+
+  .w-90 {
+    width: 90% !important;
+  }
+
+  button {
+    height: 121px;
+    width: 443px;
+    background: linear-gradient(90deg, #ff9a6c, #e4c2ff);
+    border: none;
+    font-size: 2.5em;
+  }
+
+  h2 {
+    font-size: 4em;
+  }
+
+  h4 {
+    font-size: 2em;
+  }
+
+  img {
+    max-width: 75%;
+    z-index: -1;
+    bottom: -181px;
+    right: 0px;
+  }
+
+  @media (max-width: 992px) {
+    .vh-85 {
+      height: auto;
+    }
+
+    img {
+      position: inherit !important;
+      display: none;
+    }
+
+    button {
+      width: 100%;
+    }
+  }
+}

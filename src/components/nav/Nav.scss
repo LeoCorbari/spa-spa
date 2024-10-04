@@ -1,0 +1,22 @@
+nav {
+  a {
+    font-size: 32px !important;
+  }
+
+  .container-fluid {
+    width: 95%;
+  }
+
+  @media (max-width: 992px) {
+    img {
+      width: 80%;
+    }
+    button,
+    button:active,
+    button::after {
+      border-radius: 0 !important;
+      border: solid 1px #000 !important;
+      box-shadow: none !important;
+    }
+  }
+}
